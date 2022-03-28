@@ -11,7 +11,6 @@
   inputs.src-nish-master.ref   = "refs/heads/master";
   inputs.src-nish-master.owner = "owlinux1000";
   inputs.src-nish-master.repo  = "nish";
-  inputs.src-nish-master.dir   = "";
   inputs.src-nish-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
